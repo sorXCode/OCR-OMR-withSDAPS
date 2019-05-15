@@ -1,0 +1,4 @@
+respondent,Valid,recognized,verified,Name,digit1,digit2,digit3,digit4,digit5,digit6,digit7,digit8,digit9,digit10,digit11,SEX,AGE,USE_ACCT,LOANHISTORY,BVN
+1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,Male,25-34,Yes,No,Yes
+2,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,Male,25-34,Yes,No,Yes
+3,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,Male,18-24,Yes,No,Yes

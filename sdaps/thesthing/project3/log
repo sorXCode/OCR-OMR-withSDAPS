@@ -1,0 +1,38 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the questionnaire.
+Running pdflatex now multiple imes to generate the questionnaire.
+GUADEC Workshop Evaluation
+Author: 
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+0 sheets
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-s5xowdpg.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+1 sheet
+Warning: Got a wrong survey ID (1.tif, 0)! It is 32498923, but should be 3397615700.
+Processed 1 of 1 sheets, took 0.947374 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'

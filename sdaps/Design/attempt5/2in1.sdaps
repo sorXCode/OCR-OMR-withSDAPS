@@ -1,0 +1,14 @@
+[1]Author=The Author
+[2]Title=The Title
+[3]Duplex=true
+[4]PrintQuestionnaireId=0
+[5]PageSize=597.50793pt,845.04694pt
+[6]Style=qr
+[7]CheckMode=checkcorrect
+[8]GlobalID=
+[9]GlobalIDLabel=
+[10]Date=10.03.2013
+[11]QObject-Head=1. Choice questions
+[12]Variable[1]=1
+[13]QObject-Head=2. Mark Question
+[14]Pages=1

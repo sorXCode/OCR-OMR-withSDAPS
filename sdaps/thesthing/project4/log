@@ -1,0 +1,350 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the questionnaire.
+Running pdflatex now multiple imes to generate the questionnaire.
+GUADEC Workshop Evaluation
+Author: 
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file scanned/project4imgscan.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file scanned/project4textscan.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-q62z00z2.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-uu5_9tfs.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+2 sheets
+Warning: 1.tif, 0: Matrix not recognized.
+Warning: Neither 2.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 2.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 2943748467.
+Processed 2 of 2 sheets, took 1.466857 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file scanned/project4textscan.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-ao9v0ao3.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: 3.tif, 0: Matrix not recognized.
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 2943748467.
+Processed 1 of 3 sheets, took 0.134523 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file scanned/project4textscan.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-z9f6il07.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+4 sheets
+Warning: 4.tif, 0: Matrix not recognized.
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 2943748467.
+Processed 1 of 4 sheets, took 0.130753 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file scanned/project4textscan.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-3369lmfy.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-wfyo9jxm.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+6 sheets
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 2943748467.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 2943748467.
+Processed 2 of 6 sheets, took 0.400980 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-dpus4cqg.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Processed 1 of 7 sheets, took 1.645862 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-pu2uuzgo.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+8 sheets
+Processed 1 of 8 sheets, took 1.069415 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/report.py", line 78, in report
+    return report.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], small, cmdline['suppress'])
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in report
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/model/survey.py", line 373, in iterate
+    if filter():
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in <lambda>
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 51, in <lambda>
+    return lambda: eval(exp, globals, locals)
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 37, in __getitem__
+    return self.qobjects[key].get_answer()
+AttributeError: 'Head' object has no attribute 'get_answer'
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/report.py", line 78, in report
+    return report.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], small, cmdline['suppress'])
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in report
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/model/survey.py", line 373, in iterate
+    if filter():
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in <lambda>
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 51, in <lambda>
+    return lambda: eval(exp, globals, locals)
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 37, in __getitem__
+    return self.qobjects[key].get_answer()
+AttributeError: 'Head' object has no attribute 'get_answer'
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/report.py", line 78, in report
+    return report.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], small, cmdline['suppress'])
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 44, in report
+    filter = clifilter.clifilter(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 48, in clifilter
+    exp = compile(expression, '<string>', 'eval')
+  File "<string>", line 1
+    _1_1= 7
+        ^
+SyntaxError: invalid syntax
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/report.py", line 78, in report
+    return report.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], small, cmdline['suppress'])
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in report
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/model/survey.py", line 373, in iterate
+    if filter():
+  File "/usr/lib/python3/dist-packages/sdaps/report/__init__.py", line 54, in <lambda>
+    lambda: survey.sheet.valid and not survey.sheet.empty and filter()
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 51, in <lambda>
+    return lambda: eval(exp, globals, locals)
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 37, in __getitem__
+    return self.qobjects[key].get_answer()
+AttributeError: 'Head' object has no attribute 'get_answer'
+------------------------------------------------------------------------------
+- SDAPS -- report_tex
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the report.
+------------------------------------------------------------------------------
+- SDAPS -- report_tex
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the report.
+------------------------------------------------------------------------------
+- SDAPS -- info
+------------------------------------------------------------------------------
+Existing fields:
+title
+Author
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/csvdata.py", line 119, in csvdata
+    csvoptions=csvoptions)
+  File "/usr/lib/python3/dist-packages/sdaps/csvdata/__init__.py", line 29, in csvdata_export
+    filter = clifilter.clifilter(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 48, in clifilter
+    exp = compile(expression, '<string>', 'eval')
+  File "<string>", line 1
+    2_1_review == 1
+       ^
+SyntaxError: invalid token
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/csvdata.py", line 119, in csvdata
+    csvoptions=csvoptions)
+  File "/usr/lib/python3/dist-packages/sdaps/csvdata/__init__.py", line 29, in csvdata_export
+    filter = clifilter.clifilter(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 48, in clifilter
+    exp = compile(expression, '<string>', 'eval')
+  File "<string>", line 1
+    2_1_review = 1
+       ^
+SyntaxError: invalid token
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/csvdata.py", line 119, in csvdata
+    csvoptions=csvoptions)
+  File "/usr/lib/python3/dist-packages/sdaps/csvdata/__init__.py", line 29, in csvdata_export
+    filter = clifilter.clifilter(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 48, in clifilter
+    exp = compile(expression, '<string>', 'eval')
+  File "<string>", line 1
+    _2_1_review = 1
+                ^
+SyntaxError: invalid syntax
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/csvdata.py", line 119, in csvdata
+    csvoptions=csvoptions)
+  File "/usr/lib/python3/dist-packages/sdaps/csvdata/__init__.py", line 36, in csvdata_export
+    filter,
+  File "/usr/lib/python3/dist-packages/sdaps/model/survey.py", line 373, in iterate
+    if filter():
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 51, in <lambda>
+    return lambda: eval(exp, globals, locals)
+  File "<string>", line 1, in <module>
+NameError: name '_2_1_review' is not defined
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/csvdata.py", line 119, in csvdata
+    csvoptions=csvoptions)
+  File "/usr/lib/python3/dist-packages/sdaps/csvdata/__init__.py", line 29, in csvdata_export
+    filter = clifilter.clifilter(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/clifilter.py", line 48, in clifilter
+    exp = compile(expression, '<string>', 'eval')
+  File "<string>", line 1
+    2_1_review
+       ^
+SyntaxError: invalid token
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------

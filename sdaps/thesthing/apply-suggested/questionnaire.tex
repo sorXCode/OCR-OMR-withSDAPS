@@ -1,0 +1,23 @@
+\documentclass[a4paper]{sdapsclassic}
+\usepackage{graphicx,amssymb, amstext, amsmath, epstopdf, booktabs, verbatim, gensymb, geometry, appendix, natbib, lmodern, tikz}
+%\geometry{a4paper}
+\title{Financial Literacy}
+\author{None}
+\begin{document}
+	\begin{questionnaire}
+	[noinfo]
+\ExplSyntaxOn
+\let\myquestionbegin\sdaps_qobject_begin:nnn
+\let\mycheckbox\sdaps_checkbox:nn
+\let\myanswer\sdaps_answer:n
+\let\myquestionend\sdaps_qobject_end:n
+\ExplSyntaxOff
+
+\myquestionbegin{name}{Choice}{Name}
+\large{\textbf{{\textrm{NAME:\hspace{0ex}}}}} \myanswer{Name}
+\ExplSyntaxOn
+	\sdaps_textbox_hstretch:nnnnn{}{2mm}{5mm}{4mm}{1}
+\ExplSyntaxOff
+\myquestionend{name}
+\end{questionnaire}
+\end{document}

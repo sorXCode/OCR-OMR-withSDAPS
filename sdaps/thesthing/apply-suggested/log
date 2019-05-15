@@ -1,0 +1,42 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the questionnaire.
+Running pdflatex now multiple imes to generate the questionnaire.
+Financial Literacy
+Author: None
+------------------------------------------------------------------------------
+- SDAPS -- annotate
+------------------------------------------------------------------------------
+/usr/lib/python3/dist-packages/sdaps/annotate/__init__.py:18: PyGIWarning: Poppler was imported without specifying a version first. Use gi.require_version('Poppler', '0.18') before import to ensure that the right version gets loaded.
+  from gi.repository import Poppler
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:21: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Pango
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:22: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import PangoCairo
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-wl3cww1z.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-3nd01b66.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+2 sheets
+Processed 2 of 2 sheets, took 2.091419 seconds
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------

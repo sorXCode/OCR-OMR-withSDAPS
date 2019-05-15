@@ -1,0 +1,14 @@
+[1]Author=None
+[2]Title=Financial Literacy
+[3]Duplex=true
+[4]PrintQuestionnaireId=0
+[5]PageSize=597.50787pt,845.04684pt
+[6]Style=qr
+[7]CheckMode=checkcorrect
+[8]GlobalID=
+[9]GlobalIDLabel=
+[10]QObject-Choice=1. Name
+[11]Answer[1]=Name
+[12]Box[1]=Textbox,1,88.14244pt,783.70354pt,475.22214pt,19.9169pt,1.00374pt,1_1,
+[13]Variable[1]=1
+[14]Pages=1

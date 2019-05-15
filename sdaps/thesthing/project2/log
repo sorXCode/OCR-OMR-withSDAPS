@@ -1,0 +1,56 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running pdflatex now multiple times to generate the questionnaire.
+Running pdflatex now multiple imes to generate the questionnaire.
+GUADEC Workshop Evaluation
+Author: 
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file ./sdaps/thesthing/scanned/project2.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file ./sdaps/thesthing/scanned/project2.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-qq_n72f4.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+1 sheet
+Warning: Neither 1.tif, 0 or 1.tif, 1 has a known rotation!
+Warning: Neither 1.tif, 0 or 1.tif, 1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: No page number for page 1.tif, 1 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 3346501404.
+Processed 1 of 1 sheets, took 0.846053 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+1 sheet
+Processed 0 of 1 sheets, took 0.008769 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+1 sheet
+Processed 0 of 1 sheets, took 0.009247 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'

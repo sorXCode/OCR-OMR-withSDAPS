@@ -1,0 +1,111 @@
+\documentclass[
+	% Babel language, also used to load translations
+  english,
+  % Use A4 paper size, you can change this to eg. letterpaper if you need
+  % the letter format. The normal methods to modify the paper size should
+  % be picked up by SDAPS automatically.
+  % a4paper, % setting this might break the example scan unfortunately
+  % letterpaper
+  %
+  % If you need it, you can add a custom barcode at the center
+  %globalid=SDAPS,
+  %
+  % And the following adds a per sheet barcode at the bottom left
+  %print_questionnaire_id,
+  %
+  % You can choose between twoside and oneside. twoside is the default, and
+  % requires the document to be printed and scanned in duplex mode.
+  %oneside,
+  %
+  % With SDAPS 1.1.6 and newer you can choose the mode used when recognizing
+  % checkboxes. valid modes are "checkcorrect" (default), "check" and
+  % "fill".
+  %checkmode=checkcorrect,
+  %
+  % The following options make sense so that we can get a better feel for the
+  % final look.
+  pagemark,
+  stamp]{sdapsclassic}
+
+\usepackage{sdapslayout}
+\usepackage{sdapsbase}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage[inline]{enumitem}
+\usepackage{moresize}
+\author{}
+\title{}
+%\globalid{123456789012}
+
+\ExplSyntaxOn
+\let\myquestionbegin\sdaps_qobject_begin:nnn
+\let\mycheckbox\sdaps_checkbox:nn
+\let\myanswer\sdaps_answer:n
+\let\myquestionend\sdaps_qobject_end:n
+\ExplSyntaxOff
+
+\begin{questionnaire}
+\begin{document}
+
+		\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{/home/vyhk/Desktop/Project_SDAPS/sdaps/Design/attempt3/invite.png}};
+		\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\~\\
+\setlength{\parindent}{4ex}
+\par
+\myquestionbegin{name}{textbox}{Name}
+\large{\textbf{{\textrm{NAME:\hspace{0ex}}}} \myanswer{Name}
+\ExplSyntaxOn
+	\sdaps_textbox_hstretch:nnnnn{}{2mm}{5mm}{4mm}{1}
+\ExplSyntaxOff
+\myquestionend{name}
+\\
+\par
+\myquestionbegin{phone}{textbox}{Phone}
+\large{\textbf{{\textrm{PHONE NUMBER:}}}}
+\myanswer{Phone}
+\ExplSyntaxOn
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{1bp} \hspace{1mm} 
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{1bp} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{1bp} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{1bp} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{1bp} \hspace{1mm}
+	\sdaps_textbox_hstretch:nnnnn{}{1mm}{5mm}{2mm}{0mm} \hspace{1mm}
+	\ExplSyntaxOff
+\myquestionend{phone}\myquestionbegin{sex}{Choice}{Sex}\large{\textbf{{\textrm{\hspace{12bp}SEX: }}}}\begin{enumerate*}
+\item[Male\hspace{5bp}\mycheckbox{}{}] \myanswer{Male}
+\item[Female \mycheckbox{}{}] \myanswer{Female}
+\end{enumerate*}
+\myquestionend{sex}
+\vspace{1ex}
+\par \myquestionbegin{agerange}{Choice}{AgeRange}
+\large{\textbf{{\textrm{AGE RANGE: }}}}
+\begin{enumerate*}
+
+\item[{\small LESS THAN 18} \mycheckbox{}{}] \myanswer{<18}
+\item[{\normalsize 18-24}\mycheckbox{}{}]\myanswer{18-24}
+\item[{\normalsize 25-34}\mycheckbox{}{}]\myanswer{25-34}
+\item[{\normalsize 35-44}\mycheckbox{}{}]\myanswer{35-44}
+\item[{\normalsize 45-54}\mycheckbox{}{}]\myanswer{45-54}
+\item[{\small 55 AND ABOVE} \mycheckbox{}{}] \myanswer{>=55}
+\end{enumerate*}
+\myquestionend{agerange}
+\vspace{2ex}
+\par\begin{minipage}{10em}
+\myquestionbegin{use_acct}{Choice}{use_account}\small{\textbf{{\textrm{DO YOU USE YOUR BANK ACCOUNT? }}}}
+\end{minipage}\hspace{1ex}\begin{minipage}{3em}\scriptsize Yes\hspace{1ex}\mycheckbox{}{} \myanswer{Yes}\scriptsize\hspace{1ex}No \hspace{1ex}\mycheckbox{}{} \myanswer{No}
+\end{minipage}
+\myquestionend{use_acct}
+\begin{minipage}{9em}
+\myquestionbegin{loan_history}{Choice}{Loan_History}\small{\textbf{{HAVE YOU TAKEN A LOAN BEFORE? }}}
+\end{minipage}\hspace{1ex}\begin{minipage}{3em}\scriptsize Yes\hspace{1ex}\mycheckbox{}{} \myanswer{Yes}\scriptsize \hspace{1ex}No \hspace{1ex}\mycheckbox{}{} \myanswer{No}
+\end{minipage}\myquestionend{loan_history}
+\begin{minipage}{7em}\myquestionbegin{bvn}{Choice}{Have_Bvn}\small{\textbf{DO YOU HAVE A BVN?}}\end{minipage}
+\hspace{1ex}\begin{minipage}{3em}\scriptsize Yes\hspace{1ex}\mycheckbox{}{} \myanswer{Yes}\scriptsize \hspace{1ex}No \hspace{1ex}\mycheckbox{}{} \myanswer{No}
+\end{minipage}
+\end{document}
+\end{questionnaire}
