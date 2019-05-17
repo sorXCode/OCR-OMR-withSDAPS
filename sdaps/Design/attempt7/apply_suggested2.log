@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.7)  9 MAY 2019 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.7)  16 MAY 2019 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,27 +654,32 @@ File: scrsize11pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (11pt
 Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@bcor=\skip51
 \ta@div=\count291
-Package typearea Info: You've used standard option `a4paper'.
+Package typearea Info: You've used standard option `a5paper'.
 (typearea)             This is correct!
-(typearea)             Internally I'm using `paper=a4'.
+(typearea)             Internally I'm using `paper=a5'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
-(typearea)             you'd have to use `paper=a4' there
-(typearea)             instead of `a4paper', too.
+(typearea)             you'd have to use `paper=a5' there
+(typearea)             instead of `a5paper', too.
 \ta@hblk=\skip52
 \ta@vblk=\skip53
 \ta@temp=\skip54
 \footheight=\skip55
+Package typearea Info: With paper sizes other than (almost) `A4' predefined
+(typearea)             DIV values do not exist. Using DIV calculation for good
+(typearea)             line width (unless using `version=3.24` or prior).
+
+DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
+(typearea)             DIV  = 14
 (typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 47.2316pt
-(typearea)              \oddsidemargin  = -12.5192pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
+(typearea)             \paperwidth      = 421.10083pt
+(typearea)              \textwidth      = 330.86494pt
+(typearea)              DIV departure   = 8%
+(typearea)              \evensidemargin = -12.11273pt
+(typearea)              \oddsidemargin  = -42.19136pt
+(typearea)             \paperheight     = 597.50793pt
+(typearea)              \textheight     = 473.4002pt
+(typearea)              \topmargin      = -66.99086pt
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
@@ -709,8 +714,7 @@ Package tocbasic Info: omitting babel extension for `lot'
 \c@table=\count299
 Class scrartcl Info: Redefining `\numberline' on input line 5615.
 \bibindent=\dimen281
-)
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
@@ -1170,16 +1174,16 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: a5paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(34.1433pt, 529.22128pt, 34.1433pt)
-* v-part:(T,H,B)=(34.1433pt, 771.0697pt, 39.83385pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=529.22128pt
-* \textheight=709.7264pt
+* h-part:(L,W,R)=(34.1433pt, 352.8142pt, 34.1433pt)
+* v-part:(T,H,B)=(34.1433pt, 523.53073pt, 39.83385pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=352.8142pt
+* \textheight=462.18742pt
 * \oddsidemargin=-38.1267pt
 * \evensidemargin=-38.1267pt
 * \topmargin=-38.1267pt
@@ -1187,7 +1191,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \headsep=13.6pt
 * \topskip=11.0pt
 * \footskip=34.1433pt
-* \marginparwidth=89.62619pt
+* \marginparwidth=45.11794pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1289,6 +1293,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
  []
 
 
+Overfull \hbox (41.34698pt too wide) in paragraph at lines 89--101
+[]$[]$ $[]$ [] $[]$ $[]$[] $[]$
+ []
+
+
 AED: lastpage setting LastPage
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 102.
@@ -1316,7 +1325,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
 Here is how much of TeX's memory you used:
  34047 strings out of 494468
  669626 string characters out of 6175061
- 849689 words of memory out of 5000000
+ 849681 words of memory out of 5000000
  37236 multiletter control sequences out of 15000+600000
  573464 words of font info for 55 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
@@ -1327,7 +1336,7 @@ hare/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 o10.pfb>
-Output written on apply_suggested2.pdf (1 page, 160570 bytes).
+Output written on apply_suggested2.pdf (1 page, 160625 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
