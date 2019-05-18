@@ -1,0 +1,6 @@
+changing default geometry prop in sdapsclassic.cls
+changing default compiler to xelatex; file to edit is defs.py, var is latex_engine
+
+run
+        dpkg -L sdaps
+to get structure.
