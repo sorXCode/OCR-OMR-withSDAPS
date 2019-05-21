@@ -18,3 +18,125 @@ Error: The survey does not have any images! Please add images (and run recognize
   from gi.repository import Pango
 /usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:22: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
   from gi.repository import PangoCairo
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-yetr3m23.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/converted.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-qmc6p5ap.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/IMG_20190520_122242.jpg', page 0!
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-_jcvvuvb.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/20-05-2019-1.pdf. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: 1.tif, 0: Matrix not recognized.
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Warning: 3.tif, 0: Matrix not recognized.
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 4.126456 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'

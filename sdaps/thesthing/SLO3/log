@@ -1,0 +1,168 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running xelatex now multiple times to generate the questionnaire.
+Running xelatex now multiple imes to generate the questionnaire.
+\@latex@error {No \noexpand \title given}\@ehc
+Author: \@latex@warning@no@line {No \noexpand \author given}
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Error: The survey does not have any images! Please add images (and run recognize) before using the GUI.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-l4nbw25s.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-0ifsj050.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-0q275ubk.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+5 sheets
+Warning: 1.tif, 0: Matrix not recognized.
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 1.tif, 1: Matrix not recognized.
+Warning: No page number for page 1.tif, 1 exists.
+Warning: Got a wrong survey ID (1.tif, 1)! It is None, but should be 4069679065.
+Warning: 1.tif, 2: Matrix not recognized.
+Warning: No page number for page 1.tif, 2 exists.
+Warning: Got a wrong survey ID (1.tif, 2)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Warning: 3.tif, 0: Matrix not recognized.
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 4069679065.
+Processed 5 of 5 sheets, took 9.679482 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/slo3/Scanned Document2.pdf. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/slo3/Scanned Document2.pdf. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/scanned_doc1.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/scanned_doc1.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/slo3/scanned_doc1.tif. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-01esuyes.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+6 sheets
+Warning: 4.tif, 0: Matrix not recognized.
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 4069679065.
+Processed 1 of 6 sheets, took 2.341647 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/slo3/5.tiff. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-drsl5c5c.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'

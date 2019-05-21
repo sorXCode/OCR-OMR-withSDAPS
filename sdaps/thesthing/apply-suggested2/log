@@ -165,3 +165,6 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/sdaps/reporttex/__init__.py", line 163, in report
     raise AssertionError('PDF file not generated')
 AssertionError: PDF file not generated
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------

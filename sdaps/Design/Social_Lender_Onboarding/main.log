@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.5.18)  20 MAY 2019 08:18
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.5.18)  20 MAY 2019 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,6 +653,12 @@ File: scrsize11pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (11pt
 Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@bcor=\skip51
 \ta@div=\count287
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
 \ta@hblk=\skip52
 \ta@vblk=\skip53
 \ta@temp=\skip54
@@ -1023,16 +1029,16 @@ LaTeX Font Info:    ... okay on input line 5.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: custom
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(34.1433pt, 529.22128pt, 34.1433pt)
-* v-part:(T,H,B)=(42.67912pt, 406.87442pt, 5.69054pt)
+* v-part:(T,H,B)=(42.67912pt, 796.67719pt, 5.69054pt)
 * \paperwidth=597.50787pt
-* \paperheight=455.24408pt
+* \paperheight=845.04684pt
 * \textwidth=529.22128pt
-* \textheight=406.87442pt
+* \textheight=796.67719pt
 * \oddsidemargin=-38.1267pt
 * \evensidemargin=-38.1267pt
 * \topmargin=-56.79088pt
@@ -1213,13 +1219,17 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 400.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
- 36693 strings out of 494877
- 717945 string characters out of 6175516
- 1080101 words of memory out of 5000000
- 40180 multiletter control sequences out of 15000+600000
+ 36695 strings out of 494877
+ 717963 string characters out of 6175516
+ 1079931 words of memory out of 5000000
+ 40181 multiletter control sequences out of 15000+600000
  552154 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  69i,23n,115p,9138b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,0 +1,141 @@
+\documentclass[a5paper]{sdapsclassic}
+\usepackage[inline]{enumitem}
+\usepackage{xcolor}
+%\geometry{paperwidth=14.8cm,
+%		  paperheight=21cm}
+\usepackage{fontspec}
+\setmainfont{Lato Light}
+\definecolor{bincom}{RGB}{0,125,55}
+\begin{document}
+	\begin{questionnaire}
+		[noinfo]
+		\title{}
+		\author{BINCOM ICT}
+		\ExplSyntaxOn
+		\let\myquestionbegin\sdaps_qobject_begin:nnn
+		\let\mycheckbox\sdaps_checkbox:nn
+		\let\myanswer\sdaps_answer:n
+		\let\mytextbox\sdaps_textbox_hstretch:nnnnn
+		\let\myquestionend\sdaps_qobject_end:n
+		\ExplSyntaxOff
+		\color{bincom}
+		%%
+		%%
+		%%
+		\myquestionbegin{name}{Choice}{Name}Name: \hspace{2pt}%
+		\textcolor{black}{%
+		\myanswer{n0}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n1}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n2}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n3}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n4}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n5}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n6}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n7}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n8}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n9}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n10}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n11}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n12}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n13}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n14}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n15}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n16}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		\myanswer{n17}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
+		}
+		\myquestionend{name}
+		\\
+		\myquestionbegin{phone}{Choice}{Phone}Phone Number: \hspace{3pt}%
+		\myanswer{P0}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P1}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P2}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P3}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P4}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P5}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P6}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P7}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P8}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P9}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}}%
+		\myanswer{P10}\textcolor{black}{\mytextbox{}{1mm}{5mm}{2mm}{0mm}}%
+		\myquestionend{phone}\hspace{5pt}%
+		%%
+		%%
+		\\
+		\myquestionbegin{sex}{Choice}{Sex}Sex: \hspace{4pt}%
+		\myanswer{Male}\textcolor{black}{\mycheckbox{}{}}Male\hspace{5pt}%
+		\myanswer{Female}\textcolor{black}{\mycheckbox{}{}}Female%
+		\myquestionend{sex}%
+		%%
+		\\
+		\myquestionbegin{age}{Choice}{Age}Age:\hspace{6pt}%
+		\myanswer{<18}\textcolor{black}{\mycheckbox{}{}}Less than 18\hspace{5pt}%
+		\myanswer{18-24}\textcolor{black}{\mycheckbox{}{}} 18-24\hspace{5pt}%
+		\myanswer{25-34}\textcolor{black}{\mycheckbox{}{}} 25-34\hspace{5pt}%
+		\myanswer{35-44}\textcolor{black}{\mycheckbox{}{}} 35-44\hspace{5pt}%
+		\myanswer{45-54}\textcolor{black}{\mycheckbox{}{}} 45-54\hspace{5pt}%
+		\myanswer{>54}\textcolor{black}{\mycheckbox{}{}} 55 and above%
+		\myquestionend{age}%
+		\\
+		\\
+		\myquestionbegin{q1}{Choice}{Q1}1.\hspace{4pt}\begin{minipage}{29em}Do you have a bank account? \end{minipage}
+		\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q1}%
+		\\
+		\\
+		\myquestionbegin{q2}{Choice}{Q2}2.\hspace{6pt}\begin{minipage}{29em}Have you taken a bank loan before? \end{minipage}
+		\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q2}%
+		\\
+		\\
+		\myquestionbegin{q3}{Choice}{Q3}3.\hspace{6pt}\begin{minipage}{40em}Savings and investment are ways you can convert income to wealth? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q3}%
+		\\
+		\\
+		\myquestionbegin{q4}{Choice}{Q4}4.\hspace{6pt}\begin{minipage}{40em}Emergency and Retirement are some of the reasons why we need to save? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q4}%
+		\\
+		\\
+		\myquestionbegin{q5}{Choice}{Q5}5.\hspace{6pt}\begin{minipage}{40em}Online banking, POS and ATMs are ways of carrying out transactions? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q5}%
+		\\
+		\\
+		\myquestionbegin{q6}{Choice}{Q6}6.\hspace{6pt}\begin{minipage}{40em}Budget and Investment can help you plan your Money? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q6}%
+		\\
+		\\
+		\myquestionbegin{q7}{Choice}{Q7}7.\hspace{6pt}\begin{minipage}{30em}Trusted friends and family members as Sponsors help you grow your Credit worthiness?\end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q7}%
+		\\
+		\\
+		\myquestionbegin{q8}{Choice}{Q8}8.\hspace{6pt}\begin{minipage}{30em}Continuous poor repayment habit makes you a bad debtor and untrustworthy? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q8}%
+		\\
+		\\
+		\myquestionbegin{q9}{Choice}{Q9}9.\hspace{6pt}\begin{minipage}{40em}Debits are money going out of your account? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q9}%
+		\\
+		\\
+		\myquestionbegin{q10}{Choice}{Q10}10.\hspace{2pt}\begin{minipage}{40em}Taking out a loan for the wrong reason is dangerous? \end{minipage}\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%	
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
+		\myquestionend{q10}
+	\end{questionnaire}
+\end{document}
