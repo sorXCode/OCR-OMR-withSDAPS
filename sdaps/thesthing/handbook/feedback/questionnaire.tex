@@ -1,0 +1,76 @@
+\documentclass[a5paper]{sdapsclassic}
+\usepackage[inline]{enumitem}
+\usepackage{xcolor}
+%\geometry{paperwidth=14.8cm,
+%		  paperheight=21cm}
+\usepackage{fontspec}
+\setmainfont{Maven Pro}
+\definecolor{bincom}{RGB}{0,125,55}
+\begin{document}
+	\begin{questionnaire}
+		[noinfo]
+		\title{}
+		\author{BINCOM ICT}
+		\ExplSyntaxOn
+		\let\myquestionbegin\sdaps_qobject_begin:nnn
+		\let\mycheckbox\sdaps_checkbox:nn
+		\let\myanswer\sdaps_answer:n
+		\let\mytextbox\sdaps_textbox_hstretch:nnnnn
+		\let\myquestionend\sdaps_qobject_end:n
+		\ExplSyntaxOff
+		\color{bincom}%
+		%%
+		%%
+		\begin{flushleft}
+		{\fontsize{10}{0} \selectfont
+		%%
+		\myquestionbegin{q1}{Choice}{Q1}%
+		1.\hspace{4pt}Was the training session useful to you?\break%
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%	
+		\myquestionend{q1}		
+		}%
+		\\~\\
+%		\myquestionbegin{q2}{Choice}{Q2}%
+		2.\hspace{4pt}What new thing did you learn?
+%		\myquestionend{q2}		
+		\\~\\~\\
+		\makebox[\textwidth]{\rule{11cm}{1pt}}\break
+		\makebox[\textwidth]{\rule{11cm}{1pt}}\break
+		\\
+		\myquestionbegin{q3}{Choice}{Q3}
+		3.\hspace{4pt}Do you see a need to open a bank account? If you don't have one
+already.%
+		\break%
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%	
+		\myquestionend{q3}%
+		\\~\\
+		\myquestionbegin{q4}{Choice}{Q4}
+		4.\hspace{4pt}Do you have a BVN?%
+		\break%
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%	
+		\myquestionend{q4}
+		\\~\\
+		\myquestionbegin{q5}{Choice}{Q5}
+		5.\hspace{4pt}If your answer to the previous question was No, are you willing to go to the bank to get your BVN?
+		\break
+		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
+		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%	
+		\myquestionend{q5}
+		\\~\\
+		\myquestionbegin{q6}{Choice}{Q6}
+		6.\hspace{4pt}How would you rate the overall experience?\\
+		\begin{itemize}
+		\leftskip=14pt
+		\item[\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}]\myanswer{5}Highly Satisfactory
+		\item[\textcolor{black}{\mycheckbox{}{}}]\myanswer{4}Satisfactory
+		\item[\textcolor{black}{\mycheckbox{}{}}]\myanswer{3}Neutral
+		\item[\textcolor{black}{\mycheckbox{}{}}]\myanswer{2}Unsatisfactory
+		\item[\textcolor{black}{\mycheckbox{}{}}]\myanswer{1}Highly Unsatisfactory
+		\end{itemize}
+		\myquestionend{q6}
+		\end{flushleft}
+	\end{questionnaire}
+\end{document}

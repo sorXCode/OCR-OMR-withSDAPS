@@ -1,0 +1,23 @@
+[sdaps]
+title = \@latex@error {No \noexpand \title given}\@ehc
+global_id = 
+
+[info]
+Author = \@latex@warning@no@line {No \noexpand \author given}
+
+[defs]
+# These values are not read back, they exist for information only!
+paper_width = 148.0
+paper_height = 210.0
+print_questionnaire_id = False
+print_survey_id = True
+style = qr
+duplex = False
+checkmode = checkcorrect
+engine = xelatex
+
+[questionnaire]
+# These values are not read back, they exist for information only!
+page_count = 1
+survey_id = 589488829
+

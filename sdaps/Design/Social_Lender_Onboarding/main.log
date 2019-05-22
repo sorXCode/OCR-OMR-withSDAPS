@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.5.18)  20 MAY 2019 12:56
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2019.5.18)  22 MAY 2019 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -653,12 +653,6 @@ File: scrsize11pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (11pt
 Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
 \ta@bcor=\skip51
 \ta@div=\count287
-Package typearea Info: You've used standard option `a4paper'.
-(typearea)             This is correct!
-(typearea)             Internally I'm using `paper=a4'.
-(typearea)             If you'd like to set the option with \KOMAoptions,
-(typearea)             you'd have to use `paper=a4' there
-(typearea)             instead of `a4paper', too.
 \ta@hblk=\skip52
 \ta@vblk=\skip53
 \ta@temp=\skip54
@@ -1029,16 +1023,16 @@ LaTeX Font Info:    ... okay on input line 5.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(34.1433pt, 529.22128pt, 34.1433pt)
-* v-part:(T,H,B)=(42.67912pt, 796.67719pt, 5.69054pt)
+* v-part:(T,H,B)=(42.67912pt, 406.87442pt, 5.69054pt)
 * \paperwidth=597.50787pt
-* \paperheight=845.04684pt
+* \paperheight=455.24408pt
 * \textwidth=529.22128pt
-* \textheight=796.67719pt
+* \textheight=406.87442pt
 * \oddsidemargin=-38.1267pt
 * \evensidemargin=-38.1267pt
 * \topmargin=-56.79088pt
@@ -1094,17 +1088,17 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 17--399
+Underfull \hbox (badness 10000) in paragraph at lines 17--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--399
+Underfull \hbox (badness 10000) in paragraph at lines 17--406
 
  []
 
 
-Overfull \hbox (2.99246pt too wide) in paragraph at lines 17--399
+Overfull \hbox (2.99246pt too wide) in paragraph at lines 17--406
 []\T1/lmr/m/n/10 First Name: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[]
 [] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] f
 ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
@@ -1113,7 +1107,7 @@ ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
  []
 
 
-Overfull \hbox (3.11569pt too wide) in paragraph at lines 17--399
+Overfull \hbox (3.11569pt too wide) in paragraph at lines 17--406
 []\T1/lmr/m/n/10 Phone No: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][]
  fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fil
 l[] []|[][] fill[] []|[][] fill[] [] []Date of Birth: []|[][] fill[] []|[][] fi
@@ -1122,7 +1116,7 @@ ll[] []|[][] fill[]
  []
 
 
-Overfull \hbox (3.17863pt too wide) in paragraph at lines 17--399
+Overfull \hbox (3.17863pt too wide) in paragraph at lines 17--406
 [][]\T1/lmr/m/n/10 Occupation: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|
 [][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][]
  fill[] []|[][] fill[] [] []Monthly Income Amount: []|[][] fill[] []|[][] fill[
@@ -1130,44 +1124,44 @@ Overfull \hbox (3.17863pt too wide) in paragraph at lines 17--399
  []
 
 
-Overfull \hbox (3.90909pt too wide) in paragraph at lines 17--399
-[][]\T1/lmr/m/n/10 Address:  []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[]
-[] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] f
-ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
-] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []
-|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] 
- []
-
-
-Overfull \hbox (4.01093pt too wide) in paragraph at lines 17--399
-\T1/lmr/m/n/10 .  []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] [
-]|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[]
-[] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] f
-ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
-] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[]
- []
-
-
-Overfull \hbox (4.3588pt too wide) in paragraph at lines 17--399
+Overfull \hbox (2.51357pt too wide) in paragraph at lines 17--406
 [][]\T1/lmr/m/n/10 Community: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[
-][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] [] []LGA: []|[][] fill[
+][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] [] []Address: []|[][] f
+ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
 ] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []
- []State: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] f
-ill[] []|[][] fill[] []|[][] fill[]
+|[][] fill[] []|[][] fill[] []|[][] fill[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--399
+Overfull \hbox (3.43684pt too wide) in paragraph at lines 17--406
+\T1/lmr/m/n/10 . []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []
+|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][
+] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fi
+ll[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[]
+ []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[]
+ []
+
+
+Overfull \hbox (3.63928pt too wide) in paragraph at lines 17--406
+[] []\T1/lmr/m/n/10 LGA: []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] f
+ill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[
+] []|[][] fill[] []|[][] fill[] []|[][] fill[]  [] []State: []|[][] fill[] []|[
+][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] fill[] []|[][] 
+fill[] []|[][] fill[] []|[][] fill[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--399
+Underfull \hbox (badness 10000) in paragraph at lines 17--406
 
  []
 
 
-Overfull \hbox (1.33545pt too wide) in paragraph at lines 17--399
+Overfull \hbox (1.33545pt too wide) in paragraph at lines 17--406
 []\T1/lmr/m/n/10 Bank: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[]
 []|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] f
 ill[][]|[][] fill[][] []Sponsor 1: []|[][] fill[][]|[][] fill[][]|[][] fill[][]
@@ -1176,7 +1170,7 @@ l[][]|[][] fill[][]|[][] fill[][] [](R[][]G[][])[]
  []
 
 
-Overfull \hbox (0.41724pt too wide) in paragraph at lines 17--399
+Overfull \hbox (0.41724pt too wide) in paragraph at lines 17--406
 []\T1/lmr/m/n/10 Acct No: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fil
 l[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][
 ] fill[][] []Sponsor 2: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[
@@ -1185,7 +1179,7 @@ fill[][]|[][] fill[][] [](R[][]G[][])[]
  []
 
 
-Overfull \hbox (0.50197pt too wide) in paragraph at lines 17--399
+Overfull \hbox (0.50197pt too wide) in paragraph at lines 17--406
 []\T1/lmr/m/n/10 BVN: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][
 ]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fill[][]|[][] fi
 ll[][]|[][] fill[][] []Sponsor 3: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|
@@ -1194,7 +1188,7 @@ ll[][]|[][] fill[][] []Sponsor 3: []|[][] fill[][]|[][] fill[][]|[][] fill[][]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--399
+Underfull \hbox (badness 10000) in paragraph at lines 17--406
 
  []
 
@@ -1210,26 +1204,26 @@ AED: lastpage setting LastPage
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
  (./main.aux
 <Reading QR code for "324989230001" at level 2-H from aux file.>
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 400.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 400.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 407.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 407.
  ) 
 Here is how much of TeX's memory you used:
- 36695 strings out of 494877
- 717963 string characters out of 6175516
- 1079931 words of memory out of 5000000
- 40181 multiletter control sequences out of 15000+600000
+ 36685 strings out of 494877
+ 717737 string characters out of 6175516
+ 1077757 words of memory out of 5000000
+ 40172 multiletter control sequences out of 15000+600000
  552154 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  69i,23n,115p,9138b,1230s stack positions out of 5000i,500n,10000p,200000b,80000s

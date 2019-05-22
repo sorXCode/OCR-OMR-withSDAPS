@@ -140,3 +140,215 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
     self.page_verified_checkbox.set_active(self._current_image.verified)
 AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 8.271093 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 8.641151 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: Neither 2.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 2.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 7.553102 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 10.219705 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 10.131775 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 4069679065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 4069679065.
+Processed 3 of 3 sheets, took 11.012609 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- report
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- report_tex
+------------------------------------------------------------------------------
+Running xelatex now multiple times to generate the report.
+Error running "xelatex" to compile the LaTeX file.
+An occured during creation of the report. Temporary files left in '/tmp/sdaps-report-tmiipd35'.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/reporttex.py", line 61, in report_tex
+    return reporttex.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], suppress=cmdline['suppress'], tex_only=cmdline['create-tex'])
+  File "/usr/lib/python3/dist-packages/sdaps/reporttex/__init__.py", line 163, in report
+    raise AssertionError('PDF file not generated')
+AssertionError: PDF file not generated
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'

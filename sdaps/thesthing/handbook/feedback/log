@@ -1,0 +1,818 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running xelatex now multiple times to generate the questionnaire.
+Running xelatex now multiple imes to generate the questionnaire.
+\@latex@error {No \noexpand \title given}\@ehc
+Author: \@latex@warning@no@line {No \noexpand \author given}
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-_uzwhcup.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-49_rhw6m.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+2 sheets
+Warning: 1.tif, 0: Matrix not recognized.
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 464103065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 464103065.
+Processed 2 of 2 sheets, took 6.416568 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-7_9w9c4a.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+3 sheets
+Processed 1 of 3 sheets, took 0.533237 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/HANDBOOK10/11.jpg. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/11.jpg', page 0!
+Processing /tmp/sdaps-convert-1hp32rmt.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/12.jpg', page 0!
+Processing /tmp/sdaps-convert-8jfnie1z.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/13.jpg', page 0!
+Processing /tmp/sdaps-convert-z9dq57pl.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+6 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Processed 3 of 6 sheets, took 7.988833 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/convert.py", line 63, in convert
+    convert_images(cmdline['images'], cmdline['output'], survey.defs.paper_width, survey.defs.paper_height, cmdline['transform'])
+  File "/usr/lib/python3/dist-packages/sdaps/convert/__init__.py", line 29, in convert_images
+    for i, (img, filename, page) in enumerate(opencv.iter_images_and_pages(images)):
+  File "/usr/lib/python3/dist-packages/sdaps/utils/opencv.py", line 44, in iter_images_and_pages
+    raise IOError(errno.ENOENT, _("File does not exist"), filename)
+FileNotFoundError: [Errno 2] File does not exist: 'thesthing/scanned/HANDBOOK10/11.jpg--3d-transform'
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/11.jpg', page 0!
+------------------------------------------------------------------------------
+- SDAPS -- reset
+------------------------------------------------------------------------------
+Removing stored data...
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+6 sheets
+Processed 0 of 6 sheets, took 0.007111 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- convert
+------------------------------------------------------------------------------
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/11.jpg', page 0!
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-vujlhklq.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/11.tif', page 0!
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/11.tif', page 1!
+Processing /tmp/sdaps-convert-ygazce2v.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-yx40tjsx.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+11 sheets
+Warning: 9.tif, 0: Matrix not recognized.
+Processed 5 of 11 sheets, took 7.996703 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Invalid input file thesthing/scanned/HANDBOOK10/13.jpg. You need to specify a (multipage) monochrome TIFF as input.
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'thesthing/scanned/HANDBOOK10/13.jpg', page 0!
+Processing /tmp/sdaps-convert-9lx4hgsc.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+12 sheets
+Processed 1 of 12 sheets, took 1.647521 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-5bs3j7uw.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+13 sheets
+Processed 1 of 13 sheets, took 1.037783 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-yj2_4kqv.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+14 sheets
+Warning: 12.tif, 0: Matrix not recognized.
+Processed 1 of 14 sheets, took 2.052433 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-1unbfkfe.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 1 of 15 sheets, took 1.690984 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: 1.tif, 0: Matrix not recognized.
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 464103065.
+Warning: 2.tif, 0: Matrix not recognized.
+Warning: No page number for page 2.tif, 0 exists.
+Warning: Got a wrong survey ID (2.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 20.712042 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Processed 0 of 15 sheets, took 0.014608 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- boxgallery
+------------------------------------------------------------------------------
+/usr/lib/python3/dist-packages/sdaps/boxgallery/__init__.py:20: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Pango
+/usr/lib/python3/dist-packages/sdaps/boxgallery/__init__.py:21: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import PangoCairo
+15 sheets
+Processed 15 of 15 sheets, took 0.259567 seconds
+Rendering boxgallery for metric "cov-min-size".
+Rendering boxgallery for metric "coverage".
+Rendering boxgallery for metric "cov-lines-removed".
+------------------------------------------------------------------------------
+- SDAPS -- boxgallery
+------------------------------------------------------------------------------
+/usr/lib/python3/dist-packages/sdaps/boxgallery/__init__.py:20: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Pango
+/usr/lib/python3/dist-packages/sdaps/boxgallery/__init__.py:21: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import PangoCairo
+15 sheets
+Processed 15 of 15 sheets, took 4.402580 seconds
+Rendering boxgallery for metric "coverage".
+Rendering boxgallery for metric "cov-min-size".
+Rendering boxgallery for metric "cov-lines-removed".
+------------------------------------------------------------------------------
+- SDAPS -- cover
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- report_tex
+------------------------------------------------------------------------------
+Running xelatex now multiple times to generate the report.
+Error running "xelatex" to compile the LaTeX file.
+An occured during creation of the report. Temporary files left in '/tmp/sdaps-report-8etre2wt'.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/reporttex.py", line 61, in report_tex
+    return reporttex.report(survey, cmdline['filter'], cmdline['output'], cmdline['papersize'], suppress=cmdline['suppress'], tex_only=cmdline['create-tex'])
+  File "/usr/lib/python3/dist-packages/sdaps/reporttex/__init__.py", line 163, in report
+    raise AssertionError('PDF file not generated')
+AssertionError: PDF file not generated
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 20.324413 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 25.389234 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Processed 15 of 15 sheets, took 34.158080 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 28.338248 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 31.295898 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+15 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 15 of 15 sheets, took 28.621412 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-s7_k_b37.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-n2ja4i_1.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+17 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 17 of 17 sheets, took 24.908312 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Error: [Errno 2] File does not exist: 'HANDBOOK10/final3.pdf'
+Error: Running the conversion failed.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/add.py", line 112, in add
+    convert_images(cmdline['images'], tmp, survey.defs.paper_width, survey.defs.paper_height, cmdline['transform'])
+  File "/usr/lib/python3/dist-packages/sdaps/convert/__init__.py", line 29, in convert_images
+    for i, (img, filename, page) in enumerate(opencv.iter_images_and_pages(images)):
+  File "/usr/lib/python3/dist-packages/sdaps/utils/opencv.py", line 44, in iter_images_and_pages
+    raise IOError(errno.ENOENT, _("File does not exist"), filename)
+FileNotFoundError: [Errno 2] File does not exist: 'HANDBOOK10/final3.pdf'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-_7z1kuvk.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-yifqhl5u.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+19 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 19 of 19 sheets, took 26.282874 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------

@@ -4,7 +4,7 @@
 %\geometry{paperwidth=14.8cm,
 %		  paperheight=21cm}
 \usepackage{fontspec}
-\setmainfont{Lato Light}
+\setmainfont{Maven Pro}
 \definecolor{bincom}{RGB}{0,125,55}
 \begin{document}
 	\begin{questionnaire}
@@ -22,6 +22,7 @@
 		%%
 		%%
 		%%
+		{\fontsize{10}{0} \selectfont
 		\myquestionbegin{name}{Choice}{Name}Name: \hspace{2pt}%
 		\textcolor{black}{%
 		\myanswer{n0}\mytextbox{}{1mm}{5mm}{2mm}{0mm}\hspace{1pt}%
@@ -115,13 +116,13 @@
 		\myquestionend{q6}%
 		\\
 		\\
-		\myquestionbegin{q7}{Choice}{Q7}7.\hspace{6pt}\begin{minipage}{30em}Trusted friends and family members as Sponsors help you grow your Credit worthiness?\end{minipage}\break
+		\myquestionbegin{q7}{Choice}{Q7}7.\hspace{6pt}\begin{minipage}{35em}\begin{flushleft}Trusted friends and family members as Sponsors help you grow your Credit worthiness?\end{flushleft}\end{minipage}\break
 		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
 		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
 		\myquestionend{q7}%
 		\\
 		\\
-		\myquestionbegin{q8}{Choice}{Q8}8.\hspace{6pt}\begin{minipage}{30em}Continuous poor repayment habit makes you a bad debtor and untrustworthy? \end{minipage}\break
+		\myquestionbegin{q8}{Choice}{Q8}8.\hspace{6pt}\begin{minipage}{35em}Continuous poor repayment habit makes you a bad debtor and untrustworthy?\end{minipage}\break
 		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%
 		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
 		\myquestionend{q8}%
@@ -137,5 +138,6 @@
 		\myanswer{Yes}\hspace{25pt}\textcolor{black}{\mycheckbox{}{}}Yes\hspace{8pt}%	
 		\myanswer{No}\textcolor{black}{\mycheckbox{}{}}No%
 		\myquestionend{q10}
+		}
 	\end{questionnaire}
 \end{document}

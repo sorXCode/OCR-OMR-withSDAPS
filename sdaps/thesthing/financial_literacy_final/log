@@ -1,0 +1,207 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup
+------------------------------------------------------------------------------
+Running xelatex now multiple times to generate the questionnaire.
+Running xelatex now multiple imes to generate the questionnaire.
+\@latex@error {No \noexpand \title given}\@ehc
+Author: \@latex@warning@no@line {No \noexpand \author given}
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-236nfbit.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-hhf_uyvb.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-doxx8e6s.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-47t3cl5l.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'slo4/final5.pdf', page 0!
+Processing /tmp/sdaps-convert-l_rawovf.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-2vn4st4d.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-6f4xiknm.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 76278925.
+Processed 7 of 7 sheets, took 18.109298 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 1.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 2.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 3.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 4.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 5.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 6.tif, 0 and DUMMY, -1.
+Error: Got a simplex document where two adjacent pages had a known page number. This should never happen as even simplex scans are converted to duplex by inserting dummy pages. Maybe you did a simplex scan but added it in duplex mode? The pages in question are 7.tif, 0 and DUMMY, -1.
+Processed 7 of 7 sheets, took 43.273913 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Processed 0 of 7 sheets, took 0.159724 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Processed 0 of 7 sheets, took 0.154507 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 76278925.
+Processed 7 of 7 sheets, took 17.360659 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 76278925.
+Processed 7 of 7 sheets, took 17.793792 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 76278925.
+Processed 7 of 7 sheets, took 17.038487 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
