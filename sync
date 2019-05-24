@@ -1,7 +1,8 @@
 #!/bin/bash
 echo "Adding."
 git add .
-echo "Enter commit message:" read MSG
+echo "Enter commit message:"
+read MSG
 echo "Commiting..."
 git commit -m '$MSG'
 echo "Pulling....."
@@ -15,6 +16,5 @@ then
 	git push -u lab master
 else
 	echo "ENTER VALID COMMAND B!"
+fi
 echo "DONE"
-
-
