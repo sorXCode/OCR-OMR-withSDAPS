@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "Adding."
 git add .
+echo "Enter commit message:" read MSG
 echo "Commiting..."
-read MSG
 git commit -m '$MSG'
 echo "Pulling....."
 git pull lab
