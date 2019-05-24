@@ -2,9 +2,9 @@
 echo "Adding."
 git add .
 echo "Enter commit message:"
-#read MSG
+read MSG
 echo "Commiting..."
-git commit -m read $MSG
+git commit -m $MSG
 
 echo "Pulling....."
 git pull lab
