@@ -2,16 +2,17 @@
 echo "Adding."
 git add .
 echo "Enter commit message:"
-read MSG
+#read MSG
 echo "Commiting..."
-git commit -m '$MSG'
+git commit -m read
+
 echo "Pulling....."
 git pull lab
 echo "Pushing......."
 if [ $1 = 'd' ]
 then
 	git push -u lab daily
-elif [$1 = 'w' ]
+elif [$1 = 'm' ]
 then
 	git push -u lab master
 else
