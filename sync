@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "Adding."
+git add .
+echo "Commiting..."
+read MSG
+git commit -m '$MSG'
+echo "Pulling....."
+git pull lab
+echo "Pushing......."
+if [ $1 = 'd' ]
+then
+	git push -u lab daily
+elif [$1 = 'w' ]
+then
+	git push -u lab master
+else
+	echo "ENTER VALID COMMAND B!"
+echo "DONE"
+

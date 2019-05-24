@@ -816,3 +816,112 @@ Processed 19 of 19 sheets, took 26.282874 seconds
 ------------------------------------------------------------------------------
 - SDAPS -- gui
 ------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- annotate
+------------------------------------------------------------------------------
+/usr/lib/python3/dist-packages/sdaps/annotate/__init__.py:18: PyGIWarning: Poppler was imported without specifying a version first. Use gi.require_version('Poppler', '0.18') before import to ensure that the right version gets loaded.
+  from gi.repository import Poppler
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:21: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Pango
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:22: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import PangoCairo
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+19 sheets
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/recognize.py", line 57, in recognize
+    return recognize.recognize(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/recognize/__init__.py", line 32, in recognize
+    survey.iterate_progressbar(survey.questionnaire.recognize.recognize, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/model/survey.py", line 405, in iterate_progressbar
+    function(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/sdaps/recognize/buddies.py", line 486, in recognize
+    res = self.identify(clean=False)
+  File "/usr/lib/python3/dist-packages/sdaps/recognize/buddies.py", line 472, in identify
+    self.obj.sheet.recognize.recognize()
+  File "/usr/lib/python3/dist-packages/sdaps/recognize/buddies.py", line 55, in recognize
+    image.surface.load()
+  File "/usr/lib/python3/dist-packages/sdaps/surface.py", line 49, in load
+    True if self.obj.rotated else False
+AssertionError: The image surface could not be created! Broken or non 1bit tiff file?
+------------------------------------------------------------------------------
+- SDAPS -- reset
+------------------------------------------------------------------------------
+Removing stored data...
+Done
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/gui.py", line 43, in gui
+    return gui.gui(survey, cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 57, in gui
+    provider = Provider(survey, filter)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 89, in __init__
+    self.image.surface.load_rgb()
+  File "/usr/lib/python3/dist-packages/sdaps/surface.py", line 60, in load_rgb
+    True if self.obj.rotated else False
+AssertionError: The image surface could not be created! Broken or non 1bit tiff file?
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+19 sheets
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 4.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 4.tif, 0 exists.
+Warning: Got a wrong survey ID (4.tif, 0)! It is None, but should be 464103065.
+Warning: 5.tif, 0: Matrix not recognized.
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 464103065.
+Warning: 6.tif, 0: Matrix not recognized.
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 0 exists.
+Warning: Got a wrong survey ID (7.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 7.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 7.tif, 1 exists.
+Warning: Got a wrong survey ID (7.tif, 1)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 0 exists.
+Warning: Got a wrong survey ID (8.tif, 0)! It is None, but should be 464103065.
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known rotation!
+Warning: Neither 8.tif, 1 or DUMMY, -1 has a known page number!
+Warning: No page number for page 8.tif, 1 exists.
+Warning: Got a wrong survey ID (8.tif, 1)! It is None, but should be 464103065.
+Warning: 12.tif, 0: Matrix not recognized.
+Warning: 13.tif, 0: Matrix not recognized.
+Processed 19 of 19 sheets, took 29.028587 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------

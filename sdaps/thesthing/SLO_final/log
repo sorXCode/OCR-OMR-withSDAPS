@@ -205,3 +205,71 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
     self.page_verified_checkbox.set_active(self._current_image.verified)
 AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Processed 0 of 7 sheets, took 0.158203 seconds
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+7 sheets
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 1.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 1.tif, 0 exists.
+Warning: Got a wrong survey ID (1.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 3.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 3.tif, 0 exists.
+Warning: Got a wrong survey ID (3.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 5.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 5.tif, 0 exists.
+Warning: Got a wrong survey ID (5.tif, 0)! It is None, but should be 76278925.
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known rotation!
+Warning: Neither 6.tif, 0 or DUMMY, -1 has a known page number!
+Warning: No page number for page 6.tif, 0 exists.
+Warning: Got a wrong survey ID (6.tif, 0)! It is None, but should be 76278925.
+Processed 7 of 7 sheets, took 27.385298 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/gui/__init__.py", line 370, in page_number_combo_changed_cb
+    self.provider.image.page_number = None
+  File "/usr/lib/python3/dist-packages/sdaps/model/sheet.py", line 201, in __setattr__
+    self.sheet.survey.questionnaire.notify_data_changed(None, None, attr, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/model/questionnaire.py", line 85, in notify_data_changed
+    func(self, qobj, dobj, name, old_value)
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 49, in data_changed
+    self.sync_state()
+  File "/usr/lib/python3/dist-packages/sdaps/gui/widget_buddies.py", line 118, in sync_state
+    self.page_verified_checkbox.set_active(self._current_image.verified)
+AttributeError: 'NoneType' object has no attribute 'verified'
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- annotate
+------------------------------------------------------------------------------
+/usr/lib/python3/dist-packages/sdaps/annotate/__init__.py:18: PyGIWarning: Poppler was imported without specifying a version first. Use gi.require_version('Poppler', '0.18') before import to ensure that the right version gets loaded.
+  from gi.repository import Poppler
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:21: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Pango
+/usr/lib/python3/dist-packages/sdaps/annotate/buddies.py:22: PyGIWarning: PangoCairo was imported without specifying a version first. Use gi.require_version('PangoCairo', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import PangoCairo
