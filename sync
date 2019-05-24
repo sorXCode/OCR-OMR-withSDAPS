@@ -4,7 +4,7 @@ git add .
 echo "Enter commit message:"
 #read MSG
 echo "Commiting..."
-git commit -m read
+git commit -m read $MSG
 
 echo "Pulling....."
 git pull lab
