@@ -925,3 +925,28 @@ Processed 19 of 19 sheets, took 29.028587 seconds
 ------------------------------------------------------------------------------
 - SDAPS -- csvdata
 ------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Error: [Errno 2] File does not exist: 'scanned/printed/fb1'
+Error: Running the conversion failed.
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/sdaps/__init__.py", line 65, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/script.py", line 118, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python3/dist-packages/sdaps/cmdline/add.py", line 112, in add
+    convert_images(cmdline['images'], tmp, survey.defs.paper_width, survey.defs.paper_height, cmdline['transform'])
+  File "/usr/lib/python3/dist-packages/sdaps/convert/__init__.py", line 29, in convert_images
+    for i, (img, filename, page) in enumerate(opencv.iter_images_and_pages(images)):
+  File "/usr/lib/python3/dist-packages/sdaps/utils/opencv.py", line 44, in iter_images_and_pages
+    raise IOError(errno.ENOENT, _("File does not exist"), filename)
+FileNotFoundError: [Errno 2] File does not exist: 'scanned/printed/fb1'
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'scanned/printed/fb1.pdf', page 0!
+Processing /tmp/sdaps-convert-a8pwrl69.tif
+Done

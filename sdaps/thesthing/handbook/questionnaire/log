@@ -120,3 +120,19 @@ Processed 0 of 4 sheets, took 0.015677 seconds
 ------------------------------------------------------------------------------
 4 sheets
 Processed 0 of 4 sheets, took 0.013496 seconds
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Warning: Could not apply 3D-transformation to image 'scanned/printed/q1.pdf', page 0!
+Processing /tmp/sdaps-convert-8_0oe2a9.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+5 sheets
+Warning: 5.tif, 0: Matrix not recognized.
+Processed 1 of 5 sheets, took 5.059722 seconds
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
